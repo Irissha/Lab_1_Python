@@ -5,11 +5,11 @@ from pprint import pprint
 def write(data, filename):
     data = json.dumps(data)
     data = json.loads(str(data))
-    with open(filename, mode='w', encoding='utf-8') as file:
+    with open(filename, 'w', encoding='utf-8') as file:
         json.dump(data, file, indent=2)
 
 def read(filename):
-    with open(filename, mode='r', encoding='utf-8') as file:
+    with open(filename, 'r', encoding='utf-8') as file:
         return json.load(file)
 
 class Coffe:
@@ -25,14 +25,12 @@ data = {
 for i in range(50):
     data['Coffe'].append(Coffe().__dict__)
 
- #write(data, 'data1.json')
-
 n_data = read('data1.json')
-
 print(n_data['Coffe'][49])
-
 g = Coffe()
+
 g.name = n_data['Coffe'][4]['type']
 
 print(g.name)
+
 input()
