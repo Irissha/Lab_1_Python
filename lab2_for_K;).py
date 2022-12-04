@@ -8,11 +8,9 @@ def write(data, filename):
     with open(filename, mode='w', encoding='utf-8') as file:
         json.dump(data, file, indent=2)
 
-
 def read(filename):
     with open(filename, mode='r', encoding='utf-8') as file:
         return json.load(file)
-
 
 class Coffe:
     def __init__(self):
