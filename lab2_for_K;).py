@@ -34,3 +34,8 @@ g.name = n_data['Coffe'][4]['type']
 print(g.name)
 
 input()
+
+
+#C:\Users\svape\PycharmProjects\pythonProject\venv\Scripts\python.exe "C:\Users\svape\PycharmProjects\pythonProject\lab2_for_K;).py" 
+#{'ml': 400, 'type': 'Latte', 'amount': 1}
+#Latte
