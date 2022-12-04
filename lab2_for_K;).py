@@ -36,6 +36,7 @@ print(g.name)
 input()
 
 
+#========================================================REPLY======================================================================
 #C:\Users\svape\PycharmProjects\pythonProject\venv\Scripts\python.exe "C:\Users\svape\PycharmProjects\pythonProject\lab2_for_K;).py" 
 #{'ml': 400, 'type': 'Latte', 'amount': 1}
 #Latte
