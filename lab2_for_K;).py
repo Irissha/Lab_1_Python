@@ -25,7 +25,7 @@ data = {
 for i in range(50):
     data['Coffe'].append(Coffe().__dict__)
 
-n_data = read('data1.json')
+n_data = read('data_lab2.json')
 print(n_data['Coffe'][49])
 g = Coffe()
 
