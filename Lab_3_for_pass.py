@@ -1,5 +1,4 @@
 from pyDatalog import pyDatalog
-
 import random
 pyDatalog.create_terms('X, Z, Y, Sm, div, Average, y, SumRand')
 
@@ -7,7 +6,7 @@ pyDatalog.create_terms('X, Z, Y, Sm, div, Average, y, SumRand')
 print(y[888888] == Sm)
 (div[X, Y] == Z) <= (X // Y == Z)
 print(div[y[888888], 888888] == Average)
- 
+
 l = sorted([random.choice(range(888888)) for i in range(100)])
 (y['sum_rand'] == sum_(Z, for_each=Z)) <= Z.in_(l)
 print(y['sum_rand'] == SumRand)
