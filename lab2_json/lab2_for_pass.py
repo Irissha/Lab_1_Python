@@ -1,7 +1,7 @@
 import json
 from random import randint, choice
 from pprint import pprint
- 
+  
 def write(data, filename):
     data = json.dumps(data)
     data = json.loads(str(data))
