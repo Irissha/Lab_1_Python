@@ -1,5 +1,5 @@
 from functools import reduce
-import csv
+import csv 
 
 with open("titanic.csv","r") as file:
 	keys = file.readline()
